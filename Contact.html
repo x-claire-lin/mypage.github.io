@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Claire Lin</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+        <section class="container">
+			<div class="titlebar">
+				<div class="header">
+					<div class="name">
+						<h1>CLAIRE<br>LIN</h1>
+					</div>
+				</div>
+				
+				<div class="menu">
+					<a href="index.html" id="home"><span>—</span>&nbsp;&nbsp;HOME</a><br>
+					<a href="resume.html" id="resume"><span>—</span>&nbsp;&nbsp;RESUME</a><br>
+					<a href="Projects.html" id="projects"><span>—</span>&nbsp;&nbsp;PROJECTS</a><br>
+					<a href="Contact.html" id="contact" 
+					style="font-weight: bold;
+                    text-shadow: 0 0 10px #332921;
+                    color:antiquewhite;"><span>—</span>&nbsp;&nbsp;CONTACT</a>
+				</div>
+			</div>
+			<form method="post" action="message.php">
+				<div class="info">
+				<label for="name">NAME</label><br>
+				<input type="text" id="name" name="name" required>
+				<br><br>
+				<label for="email">E-MAIL</label><br>
+				<input type="text" id="email" name="email" required>
+				<br><br>
+				</div>
+				<div class="message">
+					<label for="message">MESSAGE</label><br>
+					<textarea id="message" name="message" required></textarea><br>
+					<div class="submit">
+						<input type="submit" value="SUBMIT" id="submit">
+					</div>
+				</div>
+			</form>
+		</section>
+    </body>

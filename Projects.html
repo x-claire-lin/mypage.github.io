@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Claire Lin</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+        <section class="container">
+			<div class="titlebar">
+				<div class="header">
+					<div class="name">
+						<h1>CLAIRE<br>LIN</h1>
+					</div>
+				</div>
+				
+				<div class="menu">
+					<a href="index.html" id="home"><span>—</span>&nbsp;&nbsp;HOME</a><br>
+					<a href="resume.html" id="resume"><span>—</span>&nbsp;&nbsp;RESUME</a><br>
+					<a href="Projects.html" id="projects" 
+					style="font-weight: bold;
+                    text-shadow: 0 0 10px #332921;
+                    color:antiquewhite;"><span>—</span>&nbsp;&nbsp;PROJECTS</a><br>
+					<a href="Contact.html" id="contact"><span>—</span>&nbsp;&nbsp;CONTACT</a>
+				</div>
+			</div>
+
+			<div class="slideshow-container">
+				<script src="action.js"></script>
+				<div class="mySlides fade" style="display: block;">
+					<div class="project-text">
+						<div class="project-title">
+							<h2>My Personal Website</h2>
+						</div>
+						<div class="project-time">MAR 2024</div>
+						<div class="project-skill">
+							<p>HTML</p><p>CSS</p><p>JavaScript</p>
+						</div>
+						<div class="project-description">
+							<p>
+								Welcome to my personal website, a meticulously crafted 
+								showcase that goes beyond the conventional resume, serving 
+								as a dynamic portfolio to underscore my expertise in web 
+								development. Rooted in HTML, CSS, and JavaScript, this 
+								project is an embodiment of my skills, presenting a seamless 
+								blend of professional formatting and interactive content.
+							</p>
+						</div>
+					</div>
+					<div class="project-img">
+						<img src="img/project1.png" alt="project1">
+					</div>
+				</div>
+			
+				<div class="mySlides fade" style="display: none;">
+					<div class="project-text">
+						<div class="project-title">
+							<h2>Database Group Project</h2>
+						</div>
+						<div class="project-time">FEB 2024</div>
+						<div class="project-skill">
+							<p>SQL</p><p>MS Access</p><p>SSMS</p>
+						</div>
+						<div class="project-description">
+							The database is designed to manage and organize the data of 
+							a Spotify playlist. The playlist represents a collection of 
+							tracks, albums, and artists curated by the user on the Spotify 
+							platform. This database aims to provide a comprehensive system 
+							for storing and retrieving information related to music tracks, 
+							albums, and artists.
+						</div>
+					</div>
+					<div class="project-img">
+						<img src="img/project2.png" alt="project2">
+					</div>
+				</div>
+			
+				<div class="mySlides fade" style="display: none;">
+					<div class="project-text">
+						<div class="project-title">
+							<h2>Car Registration Project</h2>
+						</div>
+						<div class="project-time">FEB 2024</div>
+						<div class="project-skill">
+							<p>Java</p>
+						</div>
+						<div class="project-description">
+							The Car Registration project is a Java program facilitating 
+							the efficient registration of customer and car details for 
+							vehicle purchases. Within the "CarRegistrationTest" class, 
+							a user-friendly command-line interface prompts users to input 
+							key information, including the customer's name, birth year, 
+							gender, yearly income, and car specifics like base price, upgrade 
+							coefficient, and color index.
+						</div>
+					</div>
+					<div class="project-img">
+						<img src="img/project3.png" alt="project3">
+					</div>
+				</div>
+
+				<div class="mySlides fade" style="display: none;">
+					<div class="project-text">
+						<div class="project-title">
+							<h2>Database Query</h2>
+						</div>
+						<div class="project-time">FEB 2024</div>
+						<div class="project-skill">
+							<p>SQL</p><p>SSMS</p>
+						</div>
+						<div class="projectdescription">
+							A SQL querying project showcasing my proficiency in database 
+							management and data extraction. I crafted a comprehensive query to 
+							yield insightful information leveraging the AdventureWorksDW database. 
+							The query skillfully amalgamates data from the "DimGeography" and 
+							"DimCustomer" tables, providing a meticulous list of customers born 
+							in each birth year for every city.
+						</div>
+					</div>
+					<div class="project-img">
+						<img src="img/project4.png" alt="project4">
+					</div>
+				</div>
+			
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+		</section>
+    </body>
